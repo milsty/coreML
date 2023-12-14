@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8D0E9959-D60A-4B09-B3E3-90B8D0AF9F45"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D0BA265-E6EA-475C-BC59-47EA21A0D5DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BananaCoreML/BananaTrainModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "train(trainingDataURL:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1D0BA265-E6EA-475C-BC59-47EA21A0D5DE - 278cea56466f5726"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable (CreateMLComponents.Event) -&gt; () in BananaCoreML.ImageRegressor.train(trainingDataURL: Foundation.URL) async throws -&gt; some"
+                  moduleName = "BananaCoreML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Documents/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B/BananaCoreML/BananaCoreML/BananaTrainModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "1D0BA265-E6EA-475C-BC59-47EA21A0D5DE - a6c8fa5e3b4d7af3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BananaCoreML.ImageRegressor.train(trainingDataURL: Foundation.URL) async throws -&gt; some"
+                  moduleName = "BananaCoreML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Documents/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B/BananaCoreML/BananaCoreML/BananaTrainModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+               <Location
+                  uuid = "1D0BA265-E6EA-475C-BC59-47EA21A0D5DE - a6c8fa5e3b4d7af3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BananaCoreML.ImageRegressor.train(trainingDataURL: Foundation.URL) async throws -&gt; some"
+                  moduleName = "BananaCoreML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Documents/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B/BananaCoreML/BananaCoreML/BananaTrainModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "1D0BA265-E6EA-475C-BC59-47EA21A0D5DE - 59874f97ee9be2ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for BananaCoreML.ImageRegressor.train(trainingDataURL: Foundation.URL) async throws -&gt; some"
+                  moduleName = "BananaCoreML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Documents/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B/BananaCoreML/BananaCoreML/BananaTrainModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB90E492-24DB-4317-BD92-462D69E3B356"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BananaCoreML/BananaTrainModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "train(trainingDataURL:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB90E492-24DB-4317-BD92-462D69E3B356 - 278cea56466f5783"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable (CreateMLComponents.Event) -&gt; () in BananaCoreML.ImageRegressor.train(trainingDataURL: Foundation.URL) async throws -&gt; some"
+                  moduleName = "BananaCoreML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Documents/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B/BananaCoreML/BananaCoreML/BananaTrainModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "856">
+               </Location>
+               <Location
+                  uuid = "DB90E492-24DB-4317-BD92-462D69E3B356 - a6c8fa5e3b4d7a56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BananaCoreML.ImageRegressor.train(trainingDataURL: Foundation.URL) async throws -&gt; some"
+                  moduleName = "BananaCoreML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Documents/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B/BananaCoreML/BananaCoreML/BananaTrainModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1880">
+               </Location>
+               <Location
+                  uuid = "DB90E492-24DB-4317-BD92-462D69E3B356 - a6c8fa5e3b4d7a56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BananaCoreML.ImageRegressor.train(trainingDataURL: Foundation.URL) async throws -&gt; some"
+                  moduleName = "BananaCoreML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Documents/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B/BananaCoreML/BananaCoreML/BananaTrainModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33AF83B6-1B3E-467A-A864-9D62B292E180"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BananaCoreML/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-trainModel"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "33AF83B6-1B3E-467A-A864-9D62B292E180 - 78121ce480826765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[ViewController trainModel]_block_invoke_2"
+                  moduleName = "BananaCoreML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Documents/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B/BananaCoreML/BananaCoreML/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "33AF83B6-1B3E-467A-A864-9D62B292E180 - 78121ce48081e764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[ViewController trainModel]_block_invoke_3"
+                  moduleName = "BananaCoreML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Documents/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B/BananaCoreML/BananaCoreML/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

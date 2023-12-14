@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BBA336B2B21CFE800CE8895 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA336A2B21CFE800CE8895 /* AppDelegate.m */; };
+		2BBA336E2B21CFE800CE8895 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA336D2B21CFE800CE8895 /* ViewController.m */; };
+		2BBA33702B21CFE900CE8895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA336F2B21CFE900CE8895 /* Assets.xcassets */; };
+		2BBA33732B21CFE900CE8895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA33712B21CFE900CE8895 /* Main.storyboard */; };
+		2BBA33752B21CFE900CE8895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA33742B21CFE900CE8895 /* main.m */; };
+		2BBA33802B21CFEA00CE8895 /* BananaCoreMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA337F2B21CFEA00CE8895 /* BananaCoreMLTests.m */; };
+		2BBA338A2B21CFEA00CE8895 /* BananaCoreMLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA33892B21CFEA00CE8895 /* BananaCoreMLUITests.m */; };
+		2BBA338C2B21CFEA00CE8895 /* BananaCoreMLUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA338B2B21CFEA00CE8895 /* BananaCoreMLUITestsLaunchTests.m */; };
+		2BBA339A2B21D02B00CE8895 /* BananaTrainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA33992B21D02B00CE8895 /* BananaTrainModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BBA337C2B21CFEA00CE8895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBA335E2B21CFE800CE8895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBA33652B21CFE800CE8895;
+			remoteInfo = BananaCoreML;
+		};
+		2BBA33862B21CFEA00CE8895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBA335E2B21CFE800CE8895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBA33652B21CFE800CE8895;
+			remoteInfo = BananaCoreML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BBA33662B21CFE800CE8895 /* BananaCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BananaCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA33692B21CFE800CE8895 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BBA336A2B21CFE800CE8895 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BBA336C2B21CFE800CE8895 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BBA336D2B21CFE800CE8895 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BBA336F2B21CFE900CE8895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BBA33722B21CFE900CE8895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BBA33742B21CFE900CE8895 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BBA33762B21CFE900CE8895 /* BananaCoreML.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BananaCoreML.entitlements; sourceTree = "<group>"; };
+		2BBA337B2B21CFEA00CE8895 /* BananaCoreMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BananaCoreMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA337F2B21CFEA00CE8895 /* BananaCoreMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BananaCoreMLTests.m; sourceTree = "<group>"; };
+		2BBA33852B21CFEA00CE8895 /* BananaCoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BananaCoreMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA33892B21CFEA00CE8895 /* BananaCoreMLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BananaCoreMLUITests.m; sourceTree = "<group>"; };
+		2BBA338B2B21CFEA00CE8895 /* BananaCoreMLUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BananaCoreMLUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2BBA33982B21D02B00CE8895 /* BananaCoreML-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BananaCoreML-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BBA33992B21D02B00CE8895 /* BananaTrainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaTrainModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBA33632B21CFE800CE8895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA33782B21CFEA00CE8895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA33822B21CFEA00CE8895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBA335D2B21CFE800CE8895 = {
+			isa = PBXGroup;
+			children = (
+				2BBA33682B21CFE800CE8895 /* BananaCoreML */,
+				2BBA337E2B21CFEA00CE8895 /* BananaCoreMLTests */,
+				2BBA33882B21CFEA00CE8895 /* BananaCoreMLUITests */,
+				2BBA33672B21CFE800CE8895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BBA33672B21CFE800CE8895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA33662B21CFE800CE8895 /* BananaCoreML.app */,
+				2BBA337B2B21CFEA00CE8895 /* BananaCoreMLTests.xctest */,
+				2BBA33852B21CFEA00CE8895 /* BananaCoreMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BBA33682B21CFE800CE8895 /* BananaCoreML */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA33692B21CFE800CE8895 /* AppDelegate.h */,
+				2BBA336A2B21CFE800CE8895 /* AppDelegate.m */,
+				2BBA336C2B21CFE800CE8895 /* ViewController.h */,
+				2BBA336D2B21CFE800CE8895 /* ViewController.m */,
+				2BBA33992B21D02B00CE8895 /* BananaTrainModel.swift */,
+				2BBA336F2B21CFE900CE8895 /* Assets.xcassets */,
+				2BBA33712B21CFE900CE8895 /* Main.storyboard */,
+				2BBA33742B21CFE900CE8895 /* main.m */,
+				2BBA33762B21CFE900CE8895 /* BananaCoreML.entitlements */,
+				2BBA33982B21D02B00CE8895 /* BananaCoreML-Bridging-Header.h */,
+			);
+			path = BananaCoreML;
+			sourceTree = "<group>";
+		};
+		2BBA337E2B21CFEA00CE8895 /* BananaCoreMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA337F2B21CFEA00CE8895 /* BananaCoreMLTests.m */,
+			);
+			path = BananaCoreMLTests;
+			sourceTree = "<group>";
+		};
+		2BBA33882B21CFEA00CE8895 /* BananaCoreMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA33892B21CFEA00CE8895 /* BananaCoreMLUITests.m */,
+				2BBA338B2B21CFEA00CE8895 /* BananaCoreMLUITestsLaunchTests.m */,
+			);
+			path = BananaCoreMLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BBA33652B21CFE800CE8895 /* BananaCoreML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBA338F2B21CFEA00CE8895 /* Build configuration list for PBXNativeTarget "BananaCoreML" */;
+			buildPhases = (
+				2BBA33622B21CFE800CE8895 /* Sources */,
+				2BBA33632B21CFE800CE8895 /* Frameworks */,
+				2BBA33642B21CFE800CE8895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BananaCoreML;
+			productName = BananaCoreML;
+			productReference = 2BBA33662B21CFE800CE8895 /* BananaCoreML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BBA337A2B21CFEA00CE8895 /* BananaCoreMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBA33922B21CFEA00CE8895 /* Build configuration list for PBXNativeTarget "BananaCoreMLTests" */;
+			buildPhases = (
+				2BBA33772B21CFEA00CE8895 /* Sources */,
+				2BBA33782B21CFEA00CE8895 /* Frameworks */,
+				2BBA33792B21CFEA00CE8895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBA337D2B21CFEA00CE8895 /* PBXTargetDependency */,
+			);
+			name = BananaCoreMLTests;
+			productName = BananaCoreMLTests;
+			productReference = 2BBA337B2B21CFEA00CE8895 /* BananaCoreMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BBA33842B21CFEA00CE8895 /* BananaCoreMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBA33952B21CFEA00CE8895 /* Build configuration list for PBXNativeTarget "BananaCoreMLUITests" */;
+			buildPhases = (
+				2BBA33812B21CFEA00CE8895 /* Sources */,
+				2BBA33822B21CFEA00CE8895 /* Frameworks */,
+				2BBA33832B21CFEA00CE8895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBA33872B21CFEA00CE8895 /* PBXTargetDependency */,
+			);
+			name = BananaCoreMLUITests;
+			productName = BananaCoreMLUITests;
+			productReference = 2BBA33852B21CFEA00CE8895 /* BananaCoreMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BBA335E2B21CFE800CE8895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2BBA33652B21CFE800CE8895 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+					2BBA337A2B21CFEA00CE8895 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2BBA33652B21CFE800CE8895;
+					};
+					2BBA33842B21CFEA00CE8895 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2BBA33652B21CFE800CE8895;
+					};
+				};
+			};
+			buildConfigurationList = 2BBA33612B21CFE800CE8895 /* Build configuration list for PBXProject "BananaCoreML" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BBA335D2B21CFE800CE8895;
+			productRefGroup = 2BBA33672B21CFE800CE8895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BBA33652B21CFE800CE8895 /* BananaCoreML */,
+				2BBA337A2B21CFEA00CE8895 /* BananaCoreMLTests */,
+				2BBA33842B21CFEA00CE8895 /* BananaCoreMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BBA33642B21CFE800CE8895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA33702B21CFE900CE8895 /* Assets.xcassets in Resources */,
+				2BBA33732B21CFE900CE8895 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA33792B21CFEA00CE8895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA33832B21CFEA00CE8895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBA33622B21CFE800CE8895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA336E2B21CFE800CE8895 /* ViewController.m in Sources */,
+				2BBA339A2B21D02B00CE8895 /* BananaTrainModel.swift in Sources */,
+				2BBA33752B21CFE900CE8895 /* main.m in Sources */,
+				2BBA336B2B21CFE800CE8895 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA33772B21CFEA00CE8895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA33802B21CFEA00CE8895 /* BananaCoreMLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA33812B21CFEA00CE8895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA338C2B21CFEA00CE8895 /* BananaCoreMLUITestsLaunchTests.m in Sources */,
+				2BBA338A2B21CFEA00CE8895 /* BananaCoreMLUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BBA337D2B21CFEA00CE8895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBA33652B21CFE800CE8895 /* BananaCoreML */;
+			targetProxy = 2BBA337C2B21CFEA00CE8895 /* PBXContainerItemProxy */;
+		};
+		2BBA33872B21CFEA00CE8895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBA33652B21CFE800CE8895 /* BananaCoreML */;
+			targetProxy = 2BBA33862B21CFEA00CE8895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BBA33712B21CFE900CE8895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBA33722B21CFE900CE8895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BBA338D2B21CFEA00CE8895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2BBA338E2B21CFEA00CE8895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BBA33902B21CFEA00CE8895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BananaCoreML/BananaCoreML.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PASU88YCT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhangna.BananaCoreML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BananaCoreML/BananaCoreML-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2BBA33912B21CFEA00CE8895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BananaCoreML/BananaCoreML.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PASU88YCT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhangna.BananaCoreML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BananaCoreML/BananaCoreML-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2BBA33932B21CFEA00CE8895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhangna.BananaCoreMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BananaCoreML.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BananaCoreML";
+			};
+			name = Debug;
+		};
+		2BBA33942B21CFEA00CE8895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhangna.BananaCoreMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BananaCoreML.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BananaCoreML";
+			};
+			name = Release;
+		};
+		2BBA33962B21CFEA00CE8895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhangna.BananaCoreMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = BananaCoreML;
+			};
+			name = Debug;
+		};
+		2BBA33972B21CFEA00CE8895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhangna.BananaCoreMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = BananaCoreML;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BBA33612B21CFE800CE8895 /* Build configuration list for PBXProject "BananaCoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA338D2B21CFEA00CE8895 /* Debug */,
+				2BBA338E2B21CFEA00CE8895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBA338F2B21CFEA00CE8895 /* Build configuration list for PBXNativeTarget "BananaCoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA33902B21CFEA00CE8895 /* Debug */,
+				2BBA33912B21CFEA00CE8895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBA33922B21CFEA00CE8895 /* Build configuration list for PBXNativeTarget "BananaCoreMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA33932B21CFEA00CE8895 /* Debug */,
+				2BBA33942B21CFEA00CE8895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBA33952B21CFEA00CE8895 /* Build configuration list for PBXNativeTarget "BananaCoreMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA33962B21CFEA00CE8895 /* Debug */,
+				2BBA33972B21CFEA00CE8895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BBA335E2B21CFE800CE8895 /* Project object */;
+}
